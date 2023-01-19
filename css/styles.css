@@ -1,0 +1,26 @@
+p{
+    font-family: 'Bakbak One', cursive;
+}
+/* Grilla de la web */
+.container{
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+/* css para distinguir los contenedores */
+.container section{
+    background-color: aquamarine;
+    padding: 1em;
+    border: solid 3px;
+}
+
+/** Agregando un efecto hover al menú de navegación */
+.nav-link:hover{
+    text-decoration: underline purple;
+}
+
+/** Cambiando el color de fondo y la tipografía de la barra de navegación con una clase personalizada */
+.bg-personal{
+    background-color:rebeccapurple;
+    font-family: 'Bakbak One', cursive;
+}
+
