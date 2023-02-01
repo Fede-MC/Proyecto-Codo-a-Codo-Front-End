@@ -1,26 +1,84 @@
+body{
+   background-color: #eae2b7;
+}
 p{
     font-family: 'Bakbak One', cursive;
 }
 /* Grilla de la web */
 .container{
     display:grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    background-color: aqua; 
+    border: 4px solid black; 
 }
-/* css para distinguir los contenedores */
-.container section{
-    background-color: aquamarine;
-    padding: 1em;
-    border: solid 3px;
+
+.encabezado{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: center;
+    background-color: #db6930;
+    border: 4px solid black;
+}
+
+#perfil {
+    grid-column: 1/2;
+    display: block;
+    background-color: #54456b;
+    border: 4px solid black;
+}
+.secciones{
+    background-color: #003049;
+    border: 4px solid black;
+}
+
+/** agregando efectos al contenedor del menu */
+li .nav-item{
+    position: relative;
+    right:100px;
+    margin-left:50px;
+    width: 100px;
+    height: 50px;
+    color: rgb(247, 247, 247);
+    font-weight: 200px;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 20px;
+    transition: all 0.8s ease;
 }
 
 /** Agregando un efecto hover al menú de navegación */
-.nav-link:hover{
-    text-decoration: underline purple;
+.nav-item a:hover{
+    background:#eae2b7;
+    color:#d62828;
+   
 }
 
 /** Cambiando el color de fondo y la tipografía de la barra de navegación con una clase personalizada */
 .bg-personal{
-    background-color:rebeccapurple;
+    background-color:#003049;
     font-family: 'Bakbak One', cursive;
 }
+
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+footer {
+    background-color: #db6930;
+}
+
+.social-networks {
+    display: inline-flex;
+    margin: auto;
+    background-color: #54456b;
+}
+
+.social-networks img {
+    width: 30px;
+    height: 30px;
+}
+
 

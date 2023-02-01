@@ -20,74 +20,92 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-
               <div class="collapse navbar-collapse" id="navbarNav">
-
                 <ul class="navbar-nav ms-auto" >
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link" aria-current="page" href="#">Inicio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Contacto</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Proyectos</a>
-                  </li>
                 </ul>
-
               </div>
-
             </div>
-        </nav>
-
+          </nav>
     </header>
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <!--foto de perfil-->
-        <img src="pic_trulli.jpg" alt="Foto de perfil">
+
+  <main class="container">
+
+    <div id="perfil">
+      <!--foto de perfil-->
+      <img id ="foto-perfil" src="/imagenes/foto_perfil.jpg" alt="Foto de perfil">
+
       <!--Datos personales-->
-        <p>Email<p></p>
-          <p>info.federicocen@gmail.com</p>
-        <p>Telefono</p>
-          <p>3624617956</p>
+      <div class="datos">
+
+        <p>Email: info.federicocen@gmail.com<p>
+        <p>Telefono:3624617956</p>
         <p>Redes sociales</p>
-          <p>colocar aquí iconos de redes sociales</p>
-     </div>
-     
-      <div class="col">
-        <!--Encabezado del currilum vitae-->
-        <main>
-          <h1>Federico Maximiliano Centurion</h1>
-          <h2>Docente|Diseñador instruccional|Front End Developer</h2>
-        </main>
+        <p>colocar aquí iconos de redes sociales</p>
 
-        <!--Secciones del curriculum vitae-->
-        <h3>Sobre mi</h3>
-        <h3>Educación</h3>
-        <h3>Experiencia</h3> 
       </div>
-    </div>
-   </div>
 
-   <!--Footer utilizando Boostrap-->
-   <footer class="text-center text-lg-start" style="background-color: #db6930;">
-    <div class="container d-flex justify-content-center py-5">
-      <button type="button" class="btn btn-primary rounded-circle btn-lg btn-floating mx-2" style="background-color: #54456b;">
-        <img src="imagenes/facebook.png" alt="facebook_logo" width="20px">
+    </div>
+
+    <div class="encabezado">
+
+      <h1>Federico Maximiliano Centurion</h1>
+      <h2>Docente|Diseñador instruccional|Front End Developer</h2>
+
+    </div>
+
+    <section class="secciones">
+
+      <section>
+
+        <h3>Sobre mi</h3>
+
+      </section>
+
+      <section>
+
+        <h3>Educación</h3>
+
+      </section>
+
+      <section>
+
+        <h3>Experiencia</h3>
+
+      </section>
+        
+    </section>
+
+  </main>
+
+  <!--Footer utilizando Boostrap-->
+  <footer>
+    <div id="social-networks">
+      <button class="social-networks" type="button" >
+        <img src="imagenes/facebook.png" alt="facebook_logo">
       </button>
-      <button type="button" class="btn btn-primary rounded-circle btn-lg btn-floating mx-2" style="background-color: #54456b;">
-        <img src="imagenes/youtube.png" alt="youtube_logo" width="20px">
+
+      <button class="social-networks" type="button">
+        <img src="imagenes/youtube.png" alt="youtube_logo">
       </button>
-      <button type="button" class="btn btn-primary rounded-circle btn-lg btn-floating mx-2" style="background-color: #54456b;">
-        <img src="imagenes/instagram.png" alt="instagram_logo" width="20px">
+
+      <button class="social-networks" type="button">
+        <img src="imagenes/instagram.png" alt="instagram_logo">
       </button>
-      <button type="button" class="btn btn-primary rounded-circle btn-lg btn-floating mx-2" style="background-color: #54456b;">
-        <img src="imagenes/twitter.png" alt="twitter_logo" width="20px">
+
+      <button class="social-networks" type="button">
+        <img src="imagenes/twitter.png" alt="twitter_logo">
       </button>
-      <button type="button" class="btn btn-primary rounded-circle btn-lg btn-floating mx-2" style="background-color: #54456b;">
-        <img src="imagenes/linkedin.png" alt="linkedin_logo" width="20px">
+
+      <button class="social-networks" type="button">
+        <img src="imagenes/linkedin.png" alt="linkedin_logo">
       </button>
+
     </div>
     <!-- Copyright -->
     <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
