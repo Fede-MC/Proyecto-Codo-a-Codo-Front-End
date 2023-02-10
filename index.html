@@ -1,138 +1,115 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <!--Importamos el CDN Boostrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
-    <title>Curriculum Vitae</title>
-</head>
-<body>
-    <header>
-    </header>
-
-  <main class="container g-0">
-  
-    <div id="perfil">
-      <!--foto de perfil-->
-      <img id ="foto-perfil" src="/imagenes/foto_perfil.jpg" alt="Foto de perfil">
-
-      <!--Datos personales-->
-      <section id="sobremi">
-        <div id="sobremi-titulo">
-          <h3>Sobre mi</h3>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="css/styles.css" />
+      <!--importamos los iconos a utilizar-->
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      <!-- importamos las fuentes a utilizar de google fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+      <!--Importamos el CDN Boostrap-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+      <title>Curriculum Vitae</title>
+  </head>
+  <body>
+      <header class="header" id="incio">
+        <img src="imagenes/hamburguesa.svg" alt="" class="hamburguer">
+        <nav class="menu-navegacion">
+          <a href="#inicio">Inicio</a>
+          <a href="#sobremi">Conoceme</a>
+          <a href="#experiencia">Experiencia</a>
+          <a href="#habilidad">Habilidades</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="contenedor head">
+          <h1>Federico Maximiliano Centurion</h1>
+          <p class="copy">Docente|Diseñador instruccional|Front end developer</p>
         </div>
-          
-            <p>Apasionado por las tecnologías y la
-              educación mediada por ellas.</p>
-            <p>Tengo como objetivo fortalecer la
-              educación, desde un enfoque reflexivo y
-              crítico, favoreciendo de este modo la
-              ciudanía digital de los educandos.</p>
-              <p>Consideró que el uso de las tecnologías,
-              adecuadamente aplicadas, me
-              permitirá fortalecer el proceso de
-              enseñanza y aprendizaje de quienes
-              acuden a mi servicio profesional. </p>
-
-      </section>
-
-      <div class="iconos-perfil">
-        <img id="icon-gmail" src="/imagenes/gmail.png" alt="icono de gmail">
-        <img id="icon-wp" src="/imagenes/whatsapp.png" alt="icono de whatsapp">
-        <img id="icon-linkedin" src="/imagenes/linkedin2.png" alt="icono de linkedin">
-      </div>
-
-      <!-- <div class="datos">
-        <p>Email: info.federicocen@gmail.com</p>
-        <p>Telefono:3624617956</p>
-        <p>colocar aquí iconos de redes sociales</p>
-      </div> -->
-
-    </div>
-
-    <div class="encabezado">
-
-      <h1>Federico Maximiliano Centurion</h1>
-      <h2>Docente|Diseñador instruccional|</h2>
-      <h2>Front End Developer</h2>
-
-    </div>
-
-    <section class="secciones">
-
-      <section id="experiencia">
-
-        <h3 id="experiencia-titulo">Experiencia</h3>
-          <p id="experiencia-subtitulo">U.E.G.P N°173 “ENFERMERO CARLOS C.
-            ROMERO” - (2016 - actualmente). </p>
-              <p>Actividades</p>
-                <ul>
-                  <li>
-                    Profesor en la materia informática de las
-                    tecnicatura superiores en enfermería,
-                    administración publica y Niñez,
-                    adolescencia y familia.
-                  </li>
-                  <li>
-                    Administrador de la plataforma educativa.
-                    Asesoría técnico - pedagógica a docentes
-                    en uso del EVEA.
-                  </li>
-                  <li>
-                    Creación de contenido digital, de soporte,
-                    para docentes y estudiantes.
-                  </li>
-                </ul>
-      </section>
-
-      <section id="habilidades">
-
-        <h3 id="habilidades-titulo">Habilidades</h3>
-          <ul>
-            <li>Administrador de plataformas educativas.</li>
-            <li>Manejo de paquete de ofimática (Excel,
-                Word, PowerPoint, Access) Avanzado.</li>
-            <li>Manejo basico de HTML, CSS, Javascript.</li>
-          </ul>
-      </section>
-        
-    </section>
-
-  </main>
-
-  <!--Footer-->
-  <footer>
-    </div>
-    <!-- Copyright -->
-    <div class="copy">
-      <h6>© 2023 - Federico Maximiliano Centurion</h6>
-  <!-- Copyright -->
-      <button class="networks" type="button" >
-        <img src="imagenes/facebook.png" alt="facebook_logo">
-      </button>
-
-      <button class="networks" type="button">
-        <img src="imagenes/youtube.png" alt="youtube_logo">
-      </button>
-
-      <button class="networks" type="button">
-        <img src="imagenes/instagram.png" alt="instagram_logo">
-      </button>
-
-      <button class="networks" type="button">
-        <img src="imagenes/twitter.png" alt="twitter_logo">
-      </button>
-
-      <button class="networks" type="button">
-        <img src="imagenes/linkedin.png" alt="linkedin_logo">
-      </button>
-    </div>
-  </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-</body>
+      </header>
+      <main>
+        <section class="datos sobremi" id="sobremi">
+          <h1>Lorem ipsum dolor</h1>
+          <h2 class="subtitulo">Sobre mi</h2>
+          <div class="contenedor-sobremi">
+            <img src="imagenes/foto_perfil.jpg" alt="foto de perfil">
+            <div class="texto-sobremi">
+              <div class="mi">
+                <h3 class="n-mi"><span class="linea">1</span>lorem</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, cupiditate quos vero quidem dolorum eos. A facilis mollitia odit labore?</p>
+              </div>
+              <div class="mi">
+                <h3 class="n-mi"><span class="linea">2</span>lorem</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, cupiditate quos vero quidem dolorum eos. A facilis mollitia odit labore?</p>
+              </div>
+              <div class="mi">
+                <h3 class="n-mi"><span class="linea">3</span>lorem</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, cupiditate quos vero quidem dolorum eos. A facilis mollitia odit labore?</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="contenedor-experiencia" id="experiencia">
+          <h2 class="subtitulo">Experiencia</h2>
+          <Section class="expers">
+            <div class="cont exper">
+              <img src="imagenes/foto_perfil.jpg" alt="imagen de experiencia">
+              <h3 class="n-exper">Experiencia 1</h3>
+            </div>
+            <div class="cont exper">
+              <img src="imagenes/foto_perfil.jpg" alt="imagen de experiencia">
+              <h3 class="n-exper">Experiencia 2</h3>
+            </div>
+            <div class="cont exper">
+              <img src="imagenes/foto_perfil.jpg" alt="imagen de experiencia">
+              <h3 class="n-exper">Experiencia 3</h3>
+            </div>
+          </Section>
+        </section>
+        <section class="contenedor-habilidades" id="habilidad">
+          <h2 class="subtitulo">Habilidades</h2>
+          <Section class="habil">
+            <div class="cont habil">
+              <img src="imagenes/foto_perfil.jpg" alt="imagen de habilidad">
+              <h3 class="n-habil">Habilidad 1</h3>
+            </div>
+            <div class="cont habil">
+              <img src="imagenes/foto_perfil.jpg" alt="imagen de habilidad">
+              <h3 class="n-habil">Habilidad 2</h3>
+            </div>
+            <div class="cont habl">
+              <img src="imagenes/foto_perfil.jpg" alt="imagen de habilidad">
+              <h3 class="n-habil">Habilidad 3</h3>
+            </div>
+          </Section>
+        </section>
+      </main>
+      <footer id="contacto">
+        <div class="contenedor footer-content">
+          <div class="contact-us">
+            <h2 class="brand">Federico Maximiliano Centurion</h2>
+            <p>copyright</p>
+          </div>
+          <div class="social-media">
+            <a href="./" class="social-media-icon">
+              <i class='bx bxl-facebook' ></i>
+            </a>
+          </div>
+          <div class="social-media">
+            <a href="./" class="social-media-icon">
+              <i class='bx bxl-instagram' ></i>
+            </a>
+          </div>
+          <div class="social-media">
+            <a href="./" class="social-media-icon">
+              <i class='bx bxl-linkedin' ></i>
+            </a>
+          </div>
+        </div>
+      </footer> 
+      <script src="js/menu.js"></script>
+  </body>
 </html>
