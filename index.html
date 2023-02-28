@@ -4,6 +4,8 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- importamos las hojas de estilos css-->
+      <link rel="stylesheet" type="text/css" href="css/contacto.css"/>
       <link rel="stylesheet" type="text/css" href="css/styles.css" />
       <!--importamos los iconos a utilizar-->
       <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -11,13 +13,13 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-      <!--Importamos el CDN Boostrap-->
+      <!--importamos el CDN Boostrap-->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
       <title>Curriculum Vitae</title>
   </head>
   <body>
       <header class="header" id="inicio">
-        <img src="imagenes/hamburguesa.svg" alt="" class="hamburguer">
+        <i class='hamburguer bx bx-menu'></i>
         <nav class="menu-navegacion">
           <a href="#inicio">Inicio</a>
           <a href="#sobremi">Sobre mi</a>
@@ -25,28 +27,33 @@
           <a href="#habilidad">Habilidades</a>
           <a href="#contacto">Contacto</a>
         </nav>
+
         <div class="contenedor head">
           <h1 class="titulo">Federico Maximiliano Centurion</h1>
           <p class="copy">Docente | Diseñador instruccional | Front end developer</p>
+          <img src="imagenes/foto_perfil.jpg" alt="foto de perfil">
+          <a class="flecha-abajo" href="#sobremi">
+            <i class='bx bx-down-arrow-circle'></i>
+          </a>
         </div>
       </header>
       <main>
         <section class="datos sobremi" id="sobremi">
           <h2 class="subtitulo">Sobre mi</h2>
           <div class="contenedor-sobremi">
-            <img src="imagenes/foto_perfil.jpg" alt="foto de perfil">
             <div class="texto-sobremi">
               <div class="mi">
-                <h3 class="n-mi"><span class="linea">1</span>lorem</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, cupiditate quos vero quidem dolorum eos. A facilis mollitia odit labore?</p>
-              </div>
-              <div class="mi">
-                <h3 class="n-mi"><span class="linea">2</span>lorem</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, cupiditate quos vero quidem dolorum eos. A facilis mollitia odit labore?</p>
-              </div>
-              <div class="mi">
-                <h3 class="n-mi"><span class="linea">3</span>lorem</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, cupiditate quos vero quidem dolorum eos. A facilis mollitia odit labore?</p>
+                <h3 class="n-mi"><span class="linea"></span>Presentación</h3>
+                <p>Me gustaria integrarme al area IT como desarrollador Front - End, recientemente finalice mi formaciónm en TICMAS en el curso Front End academy. Lo que considero es el comienzo del camino en este apasionante mundo del desarrollo. </p>
+                <p>Vengo de un area, lejana, pero relacionada indirectamente al desarrollo. Que es la educación, pero que me permitio desarrollar habilidades comunes como trabajo en equipo, comuncación y desarrollo de ideas, proyectos, organización y planificación, entre otras. Habilidades que potencian todo desempeño laboral.</p>
+                <p>Poseo amplia experencia en docencia, diseño instruccional con manejo de tecnologias, conocimientos de programación lo que me permite tomar lo necesario de cada disciplina, combinarlo y potenciar la resolución de problemas. 
+                  Me entuciasma la idea de ser un desarrollador Front End porque puedo aplicar conocimientos de mis demas disciplinas y fortalecer el trabajo que desarrolle, además soy una persona autodidacta, amante del aprendizaje. Lo que me lleva a investigar
+                  lo desconocido en situaciones que así lo requieran. 
+                  Desde mi etapa como estudiante he tenido la posibilidad de amplicar mis conocimientos y habilidades considero que ingresar a un trabajo en el area de desarrollo es una oportunidad para potenciar mi perfil profesional y aportar valor desde
+                  mis conocimientos en otras areas. 
+                  Sin mas que agregar, espero poder ser considerado para los puestos laborales afines. 
+                  Una cordial saludo y quedo a disposición. 
+                </p>
               </div>
             </div>
           </div>
@@ -54,17 +61,17 @@
         <section class="contenedor-experiencia" id="experiencia">
           <h2 class="subtitulo">Experiencia</h2>
           <Section class="expers">
-            <div class="cont exper">
-              <img src="imagenes/foto_perfil.jpg" alt="imagen de experiencia">
-              <h3 class="n-exper">Experiencia 1</h3>
+            <div class="cont expers">
+              <img class="img-expers" src="imagenes/docencia.jpg" alt="imagen de experiencia">
+              <h3 class="n-expers">Profesor</h3>
             </div>
-            <div class="cont exper">
-              <img src="imagenes/foto_perfil.jpg" alt="imagen de experiencia">
-              <h3 class="n-exper">Experiencia 2</h3>
+            <div class="cont expers">
+              <img class="img-expers" src="imagenes/instruccional.jpg" alt="imagen de experiencia">
+              <h3 class="n-expers">Diseñador instruccional</h3>
             </div>
-            <div class="cont exper">
-              <img src="imagenes/foto_perfil.jpg" alt="imagen de experiencia">
-              <h3 class="n-exper">Experiencia 3</h3>
+            <div class="cont expers">
+              <img class="img-expers" src="imagenes/programacion.jpg" alt="imagen de experiencia">
+              <h3 class="n-expers">Front End Developer</h3>
             </div>
           </Section>
         </section>
@@ -72,27 +79,70 @@
           <h2 class="subtitulo">Habilidades</h2>
           <Section class="habil">
             <div class="cont habil">
-              <img src="imagenes/foto_perfil.jpg" alt="imagen de habilidad">
-              <h3 class="n-habil">Habilidad 1</h3>
+              <img class="img-habil" src="imagenes/comunicacion.jpg" alt="imagen de habilidad">
+              <h3 class="n-habil">Comunicación <p>efectiva</p></h3>
             </div>
             <div class="cont habil">
-              <img src="imagenes/foto_perfil.jpg" alt="imagen de habilidad">
-              <h3 class="n-habil">Habilidad 2</h3>
+              <img  class="img-habil" src="imagenes/aprendizaje.jpg" alt="imagen de habilidad">
+              <h3 class="n-habil">Auto didacta</h3>
             </div>
-            <div class="cont habl">
-              <img src="imagenes/foto_perfil.jpg" alt="imagen de habilidad">
-              <h3 class="n-habil">Habilidad 3</h3>
+            <div class="cont habil">
+              <img  class="img-habil" src="imagenes/codigo.jpg" alt="imagen de habilidad">
+              <h3 class="n-habil">HTML/CSS/Javascript</h3>
             </div>
           </Section>
         </section>
       </main>
       <footer  id="contacto">
         <div class="contenedor footer-content">
-          <div class="contact-us">
-            <h2 class="brand">F.M.C - DESIGN</h2>
-          </div>
           <div class="contactame">
-            <button id="boton-contacto">Enviar mensaje</button>
+            <!-- boton del modal-->
+            <button class ="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Contactame
+            </button>
+            <!--  formulario Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Formulario de contacto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="header-form">
+                        <i class="i-area" aria-hidden="true">
+                            <span>
+                                <h4>¿Nos ponemos en contacto?</h4>
+                            </span>
+                        </i>
+                    </div>
+                    <div class="formulario">
+                        <form action="mailto:fedecentu93@gmail" method="post" enctype="text/plain" id="form">
+                            <label for="nombre">Nombre</label>
+                            <input type ="text" id="nombre" name="user_name" placeholder="Escribe tu nombre">
+                            <div class="alerta alert alert-warning " role="alert">
+                              This is a warning alert—check it out!
+                            </div>
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="user_email" placeholder="Escribre tu correo electronico">
+                            <div class="alerta alert alert-warning " role="alert" >
+                              This is a warning alert—check it out!
+                            </div>
+                            <label for="mensaje">Mensaje</label>
+                            <textarea type="" id="mensaje" name="user_mensaje" placeholder="Escribe tu mensaje"></textarea>
+                            <div class="alerta alert alert-warning" role="alert">
+                              This is a warning alert—check it out!
+                            </div>
+
+                            <button type="reset" class="btn btn-secondary">Borrar</button>
+                            <button type="submit" class="btn btn-primary" id="enviar">Enviar</button>
+                        </form>
+                        <div id="error"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="social-media">
             <a href="./" class="social-media-icon">
@@ -109,6 +159,8 @@
         <div class="line"></div>
         <p id="copyright">© Copyright 2023 - todos los derechos reservados</p>
       </footer>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
       <script src="js/menu.js"></script>
   </body>
 </html>
