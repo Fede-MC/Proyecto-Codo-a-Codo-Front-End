@@ -12,7 +12,7 @@ window.addEventListener('click', e=>{
     }
 })
 
-
+/*
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("form").addEventListener('submit', validarFormulario); 
   });
@@ -37,4 +37,4 @@ document.addEventListener("DOMContentLoaded", function() {
       return;
     }
     this.submit();
-  }
+  }*/
