@@ -2,6 +2,7 @@
 .formulario__grupo-correcto .formulario__validacion-estado {
 	color: #1ed12d;
 	opacity: 1;
+    margin-bottom: 20px;
 }
 
 .formulario__grupo-incorrecto .formulario__label {

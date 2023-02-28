@@ -32,22 +32,8 @@ const validarCampo = (expresion,input,campo)=> {
 
 };
 
-
-const validarImg = ()=>{
-    let archivo = document.getElementById('img').value,
-
-    extension = archivo.substring(archivo.lastIndexOf('.'),archivo.length);
-
-    if(document.getElementById('img').getAttribute('accept').split(',').indexOf(extension) < 0) {
-        validacionError('img');
-    } else {
-        validacionOk('img');
-    }
-};
-
-
 const expresiones = {
-	nombre: /^[a-zA-ZÀ-ÿ\s]{2,40}$/, 
+	nombre: /^[a-zA-ZÀ-ÿ\s]{5,40}$/, 
 	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
 };
 
